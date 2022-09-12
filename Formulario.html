@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>Formulario1</title>
+</head>
+<body>
+        <h1><b>Datos Usuario</b></h1>
+
+        <form class="form" method="post">
+        <h3><b>Rellena tu CV</b></h3>
+        <p>Nombre</p>
+        <input type="text" size="35" name="nombre" value=""  />
+        <p>Apellidos</p>
+        <input type="text" size="35" name="apellidos" />
+        <p>Contraseña</p>
+        <input type="password" size="35" name="contraseña" />
+        <p>Identificacion</p>
+            <select name="Identificacion" id="identificacion">
+                <option value="campo">TI</option>
+                <option value="campo">CC</option>
+                <option value="campo">CE</option>
+            </select>
+            <input type="text" size="28" name="Numero" />
+        <p>Sexo</p>
+        <input type="radio" name="Sexo" value="1">Hombre <br>
+        <input type="radio" name="Sexo" value="1">Mujer
+        <p> Elige las imágenes que deseas cargar: </p>
+        <input type="file" id="uploads" name="uploads" accept=".jpg, .jpeg, .png, .svg, .gif" multiple>
+        <br> <br>
+        <input type="checkbox" name="check" value="1"> Estudiante...
+        <br> <br>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>Departamento</p>
+                <select name="Departamento" id="Departamento">
+                    <option value="campo">Amazonas</option>
+                    <option value="campo">Antioquia</option>
+                    <option value="campo">Arauca</option>
+                    <option value="campo">Atlantico</option>
+                    <option value="campo">Bolivar</option>
+                    <option value="campo">Boyaca</option>
+                    <option value="campo">Caldas</option>
+                    <option value="campo">Caqueta</option>
+                    <option value="campo">Casanare</option>
+                    <option value="campo">Cauca</option>
+                    <option value="campo">Cesar</option>
+                    <option value="campo">Choco</option>
+                    <option value="campo">Cordoba</option>
+                    <option value="campo">Cundinamarca</option>
+                    <option value="campo">Guainia</option>
+                    <option value="campo">Guaviare</option>
+                    <option value="campo">Hulia</option>
+                    <option value="campo">La Guajira</option>
+                    <option value="campo">Magdalena</option>
+                    <option value="campo">Meta</option>
+                    <option value="campo">Nariño</option>
+                    <option value="campo">Norte de santander</option>
+                    <option value="campo">Putumayo</option>
+                    <option value="campo">Quindio</option>
+                    <option value="campo">Risaralda</option>
+                    <option value="campo">San Andres y Providencia</option>
+                    <option value="campo">Santander</option>
+                    <option value="campo">Sucre</option>
+                    <option value="campo">Tolima</option>
+                    <option value="campo">Valle del Cauca</option>
+                    <option value="campo">Vaupes</option>
+                    <option value="campo">Vichada</option>
+                </select>
+            <p>Fecha de Nacimineto</p>
+            <p><input type="text" size="8" name="Dia" /> de
+                <select name="Departamento" id="Departamento">
+                    <option value="campo">Enero</option>
+                    <option value="campo">Febrero</option>
+                    <option value="campo">Marzo</option>
+                    <option value="campo">Abril</option>
+                    <option value="campo">Mayo</option>
+                    <option value="campo">Junio</option>
+                    <option value="campo">Julio</option>
+                    <option value="campo">Agosto</option>
+                    <option value="campo">Septiembre</option>
+                    <option value="campo">Octubre</option>
+                    <option value="campo">Noviembre</option>
+                    <option value="campo">Diciembre</option>
+                </select> de 
+                <input type="text" size="8" name="Año" />
+            </p>
+            <p>Temas de interes</p>
+                <select name="menu" size="4">
+                    <option value="1">Administracion de base de datos</option>
+                    <option value="2">Analisis y programacion</option>
+                    <option value="3">Arquitectura</option>
+                    <option value="4">Calidad</option>
+                    <option value="5">ERP, CRM, Business Intelligence</option>
+                    <option value="4">Desarrollo de Software</option>
+                    <option value="4">Sistemas de Información</option>
+                    <option value="4">Seguridad Informática</option>
+                </select>
+            </fieldset>
+            <input type="submit" name="enviar" value="Guardar cambios" />
+            <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+            <br>
+            <br>
+            <a class="fcc-btn" href="lista.html">Volver</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frasesCelebres</title>
+    <style>
+     body{
+        margin: 40;
+        padding: 10;
+        background: rgb(252, 242, 242);   
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+     
+    }</style>
+</head>
+<body> 
+    <fieldset  style="width: 200px; background-color: white;" >
+    <form method="post" id="frasesCelebres"></form> 
+    <legend><b>Frases celebres de Usuarios</b></legend>
+    <p>Nombre de usuario</p>
+    <input type="text" size="35" name="nombre" value=""  />
+    <p>Correo</p>
+    <input type="email" name="correo" id="correo" class="validate" size="35">
+    <span class="helper-text" data-error="Escriba un correo válido." data-success="Correo válido"></span>
+    <br>
+    <br>
+    <textarea id="fraseCelebre1" placeholder="Esta sera la frase principal" style="width: 300px;"></textarea> <textarea  id="fraseCelebre2" placeholder="Esta sera la frase secundaria" style="width: 300px;"></textarea>
+    </fieldset>
+    <a href="lista.html"><input type="button" name="enviar" value="Guardar cambios" /></a>
+    <input type="button" name="enviar" value="enviar correo" />
+    </form>
+</body>
+</html>
